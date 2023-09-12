@@ -1,20 +1,56 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: lightgray;
 }
 
 /* HEADER */
 /* LOGO + PAGINA */
-header{
+header {
     height: 100px;
-    background-color: aquamarine;
+    background-color: white;
 }
-header .logo-titolo{
+header .logo-titolo {
     margin-left: 20px;
 }
-header .logo, .titolo{
+header .logo, .titolo {
     display: inline-block;
     line-height: 100px;
     vertical-align: middle;
+}
+/* MAIN */
+.container {
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+}
+/*BOTTONI*/
+.header-main {
+    height: 50px;
+    border-bottom: 2px solid lightgray;
+}
+.bottoni {
+    height: 25px;
+    line-height: 50px;
+    margin-left: 30px;
+}
+.bottoni .task, .section {
+    line-height: 25px;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+.task{
+    background-color:#47adf1;
+    color:white;
+    border: 1px solid #47adf1;
+}
+.section{
+    color: lightgrey;
+    border: 1px solid gray;
 }
