@@ -3,3 +3,18 @@
     margin: 0;
     padding: 0;
 }
+
+/* HEADER */
+/* LOGO + PAGINA */
+header{
+    height: 100px;
+    background-color: aquamarine;
+}
+header .logo-titolo{
+    margin-left: 20px;
+}
+header .logo, .titolo{
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: middle;
+}
