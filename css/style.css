@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-color: lightgray;
+    background-color: #f6f8f9;
 }
 
 /* HEADER */
@@ -56,19 +56,19 @@ header .logo, .titolo {
 }
 /* LISTA */
 .lista{
-    background-color: lightgoldenrodyellow;
     margin-left: 30px;
     margin-top: 20px;
-    
 }
 .lista .sezioni{
     font-weight: 800;
+    font-size: 20px;
 }
 .lista ul, li{
     list-style: none;
     margin-top: 20px;
     font-weight: 500;
 }
+/*cross, check*/
 .lista .check, .cross{
     display: inline;
     width: 20px;
@@ -85,4 +85,30 @@ header .logo, .titolo {
 .lista .check{
     border: 1px solid #64c0a9;
     color:#64c0a9;
+}
+/*bottoni laterali, editorial...*/
+.lista .info{
+    font-size: 10px;
+    margin-left:10px;
+    padding: 5px;
+    border-radius: 40%;
+    color: white;
+}
+.lista .editorial{
+    background-color: #45abea;
+}
+.lista .q1goals{
+    background-color: #9c72e4;
+}
+.lista .recruitiong{
+    background-color: #64c0a9;
+}
+.lista .mobile{
+    background-color:#f29e33;
+}
+.lista .website{
+    background-color:#d863a1;
+}
+.lista .seles{
+    background-color:#b0c926;
 }
